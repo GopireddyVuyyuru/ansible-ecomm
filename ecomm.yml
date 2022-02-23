@@ -26,7 +26,7 @@
 
   - name: Ensure clone the app from git repository.
     ansible.builtin.git:
-      repo: https://github.com/ravi2krishna/food.git
+      repo: https://github.com/ravi2krishna/ecomm.git
       dest: /var/www/html
 
 ...
